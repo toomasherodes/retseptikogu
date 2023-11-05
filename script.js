@@ -24,7 +24,8 @@ function fetchCSVAndDisplay() {
                 html += '<h1>' + column[1] +  '</h1 >' 
                 html += '<h4>' + column[2] +  '</h4 >' 
 
-                html += '<img src=' + column[0] + '.png" class="picture" >'
+                html += '<img src="/pictures/' + column[0].split('"')[1] + '.png" class="picture" >'
+                console.log(html)
 
 
                 const ingredients = column[5].split(',')
