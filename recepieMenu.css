@@ -7,7 +7,7 @@ align-items: center;
 
 .recepie_background {
 margin: 1rem;
-height: 10vh;
+height: 7rem;
 width: 85vw;
 border-radius: 10px;
 background-color: #E9E9E9;
@@ -15,16 +15,16 @@ display: flex;
 box-shadow: 3px 3px 3px black;
 text-align: left;
 padding-right: 40px;
-justify-content: flex-end;
+justify-content: space-between;
 align-items: center;
 }
 
 .recepie_button {
 width: 20%;
-height: 50px;
+height: 3rem;
 border-radius: 10px;
 border-width: 0;
-font-size: 1.7vh;
+font-size: 1.4rem;
 background-color: #FFCE81;
 justify-content: space-around; /* Aligns the content to the right */
 align-items: center; /* Aligns the content vertically in the middle */
@@ -36,16 +36,15 @@ background-color: #fbd89f;
 
 .pealkiri{
 font-weight: bold;
-font-size: 2vw;
-justify-content: flex-end;
+font-size: 2rem;
 align-items: center;
+padding-left: 2rem;
 }
-
-/*Siin on mingi stuff mida proovisin kasutada*/
-.row {
-display: flex; /* Use flexbox for layout */
-justify-content: space-between; /* Distribute space between items */
-margin-bottom: 10px; /* Add margin between rows */
+.tekst{
+    font-weight: normal;
+    font-size: 1rem;
+    align-items: center;
+    padding-left: 2rem;
 }
 
 .text {
