@@ -3,31 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CSV Loader</title>
+    <title>Retseptikogu</title>
     <link rel="stylesheet" href="global.css" />
-
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.js"
-      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-      crossorigin="anonymous"
-    ></script>
-    <script>
-      $(function () {
-        $("#header").load("header.html");
-        $("#footer").load("footer.html");
-      });
-    </script>
-
+    <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
-    <div id="header"></div>
-    <div>
-      <h1>Retseptikogu</h1>
-      <ul id="links"></ul>
-    </div>
+    <div class="main_container">
+      
+      <div class="searchbar_background">
+        <input type="text" placeholder="Otsi retsepte" class="searchbar" />
+      </div>
 
-    <div id="footer"></div>
-    <script src="script2.js"></script>
+      <div class="category_container">
+
+        <div class="category_card praed">
+          <button class="category_button">Praed</button>
+        </div>
+
+        <div class="category_card supid">
+          <button class="category_button">Supid</button>
+        </div>
+
+        <div class="category_card magus">
+          <button class="category_button">Magus</button>
+        </div>
+
+      </div>
+    </div>
+    <script src="header.js"></script>
   </body>
 </html>

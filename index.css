@@ -1,0 +1,73 @@
+.main_container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchbar_background {
+  margin: 3rem;
+  height: 75vh;
+  width: 85vw;
+  background-color: blueviolet;
+  display: flex;
+  background-image: url(/pictures/searchBackground.jpeg);
+  background-size: cover;
+}
+.searchbar {
+  width: 90%;
+  max-width: 600px;
+  height: 40px;
+  margin: auto;
+  border: 3px solid gray;
+  border-radius: 17px;
+  text-align: center;
+  font-size: 1.5rem;
+  box-shadow: 3px 3px 3px black;
+}
+.category_container {
+  background-color: #E9E9E9;
+  padding: 3rem 1rem;
+  width: 75vw;
+  margin: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.category_card {
+  margin: 5px;
+  height: 350px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.category_button {
+  width: 80%;
+  height: 55px;
+  border-radius: 10px;
+  font-size: 2rem;
+  background-color: white;
+  color: orange;
+  transition: all 100ms linear;
+}
+
+.category_button:hover{
+  background-color: rgb(236, 236, 236);
+}
+
+.praed {
+  background-image: url(/pictures/pasta_background.jpg);
+  background-size: cover;
+}
+
+.supid {
+  background-image: url(/pictures/soup_background.jpg);
+  background-size: cover;
+}
+
+.magus {
+  background-image: url(/pictures/cake_background.jpeg);
+  background-size: cover;
+}
