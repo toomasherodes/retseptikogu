@@ -1,61 +1,60 @@
 .main_container {
-width: 100vw;
-display: flex;
-flex-direction: column;
-align-items: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .recepie_background {
-margin: 1rem;
-height: 7rem;
-width: 85vw;
-border-radius: 10px;
-background-color: #E9E9E9;
-display: flex;
-box-shadow: 3px 3px 3px black;
-text-align: left;
-padding-right: 40px;
-justify-content: space-between;
-align-items: center;
+  margin: 1rem;
+  height: 7rem;
+  width: 85vw;
+  border-radius: 10px;
+  background-color: #e9e9e9;
+  display: flex;
+  box-shadow: 3px 3px 3px black;
+  text-align: left;
+  padding-right: 40px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .recepie_button {
-width: 20%;
-height: 3rem;
-border-radius: 10px;
-border-width: 0;
-font-size: 1.4rem;
-background-color: #FFCE81;
-justify-content: space-around; /* Aligns the content to the right */
-align-items: center; /* Aligns the content vertically in the middle */
+  width: 20%;
+  height: 3rem;
+  border-radius: 10px;
+  border-width: 0;
+  font-size: 1.4rem;
+  background-color: #ffce81;
+  justify-content: space-around;
+  align-items: center; /* Aligns the content vertically in the middle */
 }
 
-.recepie_button:hover{
-background-color: #fbd89f;
+.recepie_button:hover {
+  background-color: #fbd89f;
 }
 
-.pealkiri{
-font-weight: bold;
-font-size: 2rem;
-align-items: center;
-padding-left: 2rem;
+.pealkiri {
+  font-weight: bold;
+  font-size: 2rem;
+  align-items: center;
+  padding-left: 2rem;
 }
-.tekst{
-    font-weight: normal;
-    font-size: 1rem;
-    align-items: center;
-    padding-left: 2rem;
+.tekst {
+  font-weight: normal;
+  font-size: 1rem;
+  align-items: center;
+  padding-left: 2rem;
 }
 
 .text {
-    margin-right: 8px; 
-    /* Adjust spacing between the text and icon */
-    /* Add additional styling for the text if needed */
+  margin-right: 8px;
+  /* Adjust spacing between the text and icon */
+  /* Add additional styling for the text if needed */
 }
 
 .icon {
-    /* Add styling for the icon if needed */
-    max-width: 24px; /* Set a maximum width for the icon */
-    max-height: 24px; /* Set a maximum height for the icon */
-
-  
+  /* Add styling for the icon if needed */
+  max-width: 24px; /* Set a maximum width for the icon */
+  max-height: 24px; /* Set a maximum height for the icon */
+}

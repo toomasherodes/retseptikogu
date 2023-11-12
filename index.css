@@ -9,7 +9,6 @@
   margin: 3rem;
   height: 75vh;
   width: 85vw;
-  background-color: blueviolet;
   display: flex;
   background-image: url(/pictures/searchBackground.jpeg);
   background-size: cover;
@@ -19,16 +18,17 @@
   max-width: 600px;
   height: 40px;
   margin: auto;
-  border: 3px solid gray;
+  border: 1px solid gray;
   border-radius: 17px;
   text-align: center;
   font-size: 1.5rem;
   box-shadow: 3px 3px 3px black;
+  outline: none;
 }
 .category_container {
-  background-color: #E9E9E9;
+  background-color: #b9b9b9;
   padding: 3rem 1rem;
-  width: 75vw;
+  width: 75vw;                             
   margin: 2rem;
   display: flex;
   justify-content: space-around;
@@ -49,7 +49,6 @@
   border-radius: 10px;
   font-size: 2rem;
   background-color: white;
-  color: orange;
   transition: all 100ms linear;
 }
 

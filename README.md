@@ -1,3 +1,2 @@
-# retseptikogu
+# Retseptikogu
 
-Lehe vaatamiseks on vajalik käivitada *live server*.

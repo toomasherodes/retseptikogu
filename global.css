@@ -2,14 +2,20 @@
   margin: 0;
 }
 
+body {
+  margin-top: 70px;
+}
 
-.header{
-    width: 100%;
-    height: 70px;
-    background-color: #FFCE81;
-    }
+.header {
+  width: 100vw;
+  height: 70px;
+  background-color: #ffce81;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
-.logo{
+.logo {
   height: 50px;
   margin: 10px 20px;
 }
