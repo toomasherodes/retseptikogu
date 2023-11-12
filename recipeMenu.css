@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.recepie_background {
+.recipe_background {
   margin: 1rem;
   height: 7rem;
   width: 85vw;
@@ -19,7 +19,7 @@
   align-items: center;
 }
 
-.recepie_button {
+.recipe_button {
   width: 20%;
   height: 3rem;
   border-radius: 10px;
@@ -30,7 +30,7 @@
   align-items: center; /* Aligns the content vertically in the middle */
 }
 
-.recepie_button:hover {
+.recipe_button:hover {
   background-color: #fbd89f;
 }
 
