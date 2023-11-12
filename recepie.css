@@ -1,3 +1,68 @@
-.picture{
-    width: 20vw;
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #FFCE81; /* Taustavärv kogu lehele */
+}
+
+.recipe-container {
+    display: flex;
+    border: none; /* Eemaldab kasti ümber värvilise piirjoone */
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 20px; /* Lisa välimised marginaalid (eraldamiseks) */
+}
+
+.left-column {
+    flex: 2;
+    padding: 20px;
+    background-color: #E9E9E9; /* Vasaku kasti taustavärv */
+    border-radius: 15px; /* Kumerad nurgad kõikidel külgedel */
+}
+
+.right-column {
+    flex: 1;
+    overflow: hidden;
+    padding: 20px; /* Lisa välimine polsterdus (eraldamiseks) */
+    box-sizing: border-box; /* Tagab, et padding ei mõjuta kasti suurust */
+    border-radius: 15px; /* Kumerad nurgad kõikidel külgedel */
+}
+
+.recipe-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    margin-bottom: 20px;
+}
+
+.ingredients ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ingredients li {
+    margin-bottom: 5px;
+}
+
+.instructions-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    line-height: 1.5;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 100%; /* Tee pilt sama kõrgeks kui kast */
+    object-fit: cover; /* Tagab, et pilt täidab kogu ruumi, säilitades kuvasuhte */
+    border-radius: 15px; /* Kumerad nurgad kõikidel külgedel */
 }
