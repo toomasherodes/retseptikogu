@@ -1,0 +1,164 @@
+{
+  "1": {
+    "ID": "1",
+    "Kategooria": "Praad",
+    "Nimi": "Ahjukana",
+    "Tutvustus": "Maitsev röstitud kana ahjus valmistamiseks.",
+    "Aeg": "60",
+    "Koostisosad": "1 kg kana, 1 tl sool, 1 tl pipar, 3 küünt küüslauku",
+    "Valmistamine": "Kuumuta ahi 200 kraadini. Maitsesta kana soola, pipra ja küüslauguga. Aseta kana ahju ja küpseta 60 minutit."
+  },
+  "2": {
+    "ID": "2",
+    "Kategooria": "Praad",
+    "Nimi": "Pannilõhe",
+    "Tutvustus": "Kiire ja lihtne lõheroog pannil.",
+    "Aeg": "30",
+    "Koostisosad": "200 g lõhefileed, 1 tk sidrun, 2 spl võid, 1 tl tilli",
+    "Valmistamine": "Sulata või pannil. Aseta lõhefilee pannile. Pigista sidrunimahla peale ja lisa till. Küpseta mõlemalt poolt 15 minutit."
+  },
+  "3": {
+    "ID": "3",
+    "Kategooria": "Praad",
+    "Nimi": "Grillsteik",
+    "Tutvustus": "Mahlane grillsteik suveõhtuteks.",
+    "Aeg": "45",
+    "Koostisosad": "500 g veiseliha, 1 tl sool, 1 tl pipar, 2 spl oliiviõli",
+    "Valmistamine": "Kuumuta grill eelsoojendamiseks. Maitsesta steik soola ja pipraga. Pintselda oliiviõliga. Grilli 15 minutit mõlemalt poolt."
+  },
+  "4": {
+    "ID": "4",
+    "Kategooria": "Praad",
+    "Nimi": "Pasta Bolognese",
+    "Tutvustus": "Itaalia klassika - pastakaste hakklihaga.",
+    "Aeg": "40",
+    "Koostisosad": "400 g spagette, 300 g hakkliha, 1 tk sibul, 2 küünt küüslauku, 3 spl tomatipastat",
+    "Valmistamine": "Keeda spagetid soolases vees. Prae sibul ja küüslauk. Lisa hakkliha ja prae kuni pruunistumiseni. Lisa tomatipasta ja hauta 20 minutit."
+  },
+  "5": {
+    "ID": "5",
+    "Kategooria": "Supp",
+    "Nimi": "Kana-nuudlisupp",
+    "Tutvustus": "Tervislik ja soe supp külmal talvepäeval.",
+    "Aeg": "35",
+    "Koostisosad": "Kanapuljong, 200 g kanafileed, nuudlid, köögiviljad",
+    "Valmistamine": "Keeda kanapuljong. Lisa kanafilee ja köögiviljad. Keeda nuudlid eraldi ja lisa supile. Keeda veel 10 minutit."
+  },
+  "6": {
+    "ID": "6",
+    "Kategooria": "Supp",
+    "Nimi": "Tomatisupp",
+    "Tutvustus": "Värskendav supp suveks.",
+    "Aeg": "25",
+    "Koostisosad": "Tomatid, 1 tk sibul, 1 tk porgand, 1 vars seller, puljong",
+    "Valmistamine": "Kuumuta sibul, porgand ja seller. Lisa tomatid ja puljong. Keeda 15 minutit. Püreesta supp blenderiga."
+  },
+  "7": {
+    "ID": "7",
+    "Kategooria": "Supp",
+    "Nimi": "Läätsesupp",
+    "Tutvustus": "Toitev taimne supp kiireks lõunasöögiks.",
+    "Aeg": "30",
+    "Koostisosad": "Läätsed, 1 tk sibul, 2 küünt küüslauku, kartul, köögiviljapuljong",
+    "Valmistamine": "Keeda läätsi köögiviljapuljongis. Prae sibul ja küüslauk. Lisa köögiviljad. Sega läätsed köögiviljadega."
+  },
+  "8": {
+    "ID": "8",
+    "Kategooria": "Supp",
+    "Nimi": "Brokolisupp",
+    "Tutvustus": "Rikkalik ja tervislik supp brokoli austajatele.",
+    "Aeg": "40",
+    "Koostisosad": "Brokoli, kartul, 1 tk sibul, köögiviljapuljong",
+    "Valmistamine": "Keeda brokoli ja kartul köögiviljapuljongis. Prae sibul. Püreesta supp ja lisa praetud sibul."
+  },
+  "9": {
+    "ID": "9",
+    "Kategooria": "Magustoit",
+    "Nimi": "Šokolaadikook",
+    "Tutvustus": "Mahlane šokolaadikook magusaisu rahuldamiseks.",
+    "Aeg": "50",
+    "Koostisosad": "200 g tumedat šokolaadi, 150 g võid, 150 g suhkrut, 3 muna, 100 g jahu",
+    "Valmistamine": "Sulata šokolaad ja või. Vahusta suhkur ja munad. Lisa sulatatud šokolaad-võisegu. Seejärel lisa jahu. Küpseta 180-kraadises ahjus 30 minutit."
+  },
+  "10": {
+    "ID": "10",
+    "Kategooria": "Magustoit",
+    "Nimi": "Puuviljasalat",
+    "Tutvustus": "Värske puuviljasalat suviseks maiustamiseks.",
+    "Aeg": "15",
+    "Koostisosad": "Õun, banaan, kiivi, maasikad, apelsinimahl",
+    "Valmistamine": "Lõika puuviljad viiludeks. Sega kokku ja nirista üle apelsinimahlaga. Serveeri jahutatult."
+  },
+  "11": {
+    "ID": "11",
+    "Kategooria": "Magustoit",
+    "Nimi": "Vaniljekreem",
+    "Tutvustus": "Klassikaline vaniljekreem mõnusaks desserdiks.",
+    "Aeg": "20",
+    "Koostisosad": "4 dl piima, 1 vaniljekaun, 4 munakollast, 100 g suhkrut",
+    "Valmistamine": "Kuumuta piim koos poolitatud vaniljekaunaga. Vahusta munakollased suhkruga. Lisa kuum piim munasegule ja kuumuta madalal kuumusel pidevalt segades, kuni segu pakseneb. Jahuta ja serveeri."
+  },
+  "12": {
+    "ID": "12",
+    "Kategooria": "Magustoit",
+    "Nimi": "Pannkoogid",
+    "Tutvustus": "Traditsioonilised pannkoogid hommikusöögiks või magustoiduks.",
+    "Aeg": "25",
+    "Koostisosad": "2 dl jahu, 2 dl piim, 1 muna, 2 spl suhkrut, näpuotsatäis soola",
+    "Valmistamine": "Sega kõik koostisosad ühtlaseks tainaks. Küpseta pannkoogid kuumal pannil mõlemalt poolt kuldpruuniks."
+  },
+  "13": {
+    "ID": "13",
+    "Kategooria": "Praad",
+    "Nimi": "Ahjuliha",
+    "Tutvustus": "Mahlane ahjuliha ürtidega.",
+    "Aeg": "55",
+    "Koostisosad": "700 g sealiha, 1 tl sool, 1 tl pipar, 2 tl kuivatatud ürdisegu, 3 küünt küüslauku",
+    "Valmistamine": "Maitsesta liha soola, pipra ja ürtidega. Aseta ahjupotti küüslauguküüned ja liha. Küpseta 180-kraadises ahjus 55 minutit."
+  },
+  "14": {
+    "ID": "14",
+    "Kategooria": "Praad",
+    "Nimi": "Kanapasta",
+    "Tutvustus": "Kergelt vürtsikas kanapasta.",
+    "Aeg": "40",
+    "Koostisosad": "400 g kanarind, 300 g penne pastat, 1 tk paprika, 1 tl Cayenne'i pipart, 2 dl koort",
+    "Valmistamine": "Keeda pasta soolases vees. Prae kanarind pannil. Lisa tükeldatud paprika, Cayenne'i pipar ja koor. Kuumuta veel 10 minutit."
+  },
+  "15": {
+    "ID": "15",
+    "Kategooria": "Praad",
+    "Nimi": "Beeftacos",
+    "Tutvustus": "Mahlased veisetacosed vürtsika kastmega.",
+    "Aeg": "35",
+    "Koostisosad": "500 g veiseliha, 1 tk sibul, 2 tl paprikapulbrit, 1 tl jahvatatud köömned, maisitortillad",
+    "Valmistamine": "Prae veiseliha sibulaga. Lisa paprikapulber ja köömned. Serveeri täidise ja maisitortilladega."
+  },
+  "16": {
+    "ID": "16",
+    "Kategooria": "Praad",
+    "Nimi": "Kana-ananassivarras",
+    "Tutvustus": "Magus-soolane kana-ananassivarras.",
+    "Aeg": "50",
+    "Koostisosad": "400 g kanafileed, 1 purk ananassitükke, sojakaste, 1 tk paprika, 1 tk sibul",
+    "Valmistamine": "Lõika kanafilee tükkideks. Sega kokku sojakaste, ananassitükid, paprika- ja sibulatükid. Keera kana ja köögiviljad vardasse. Grilli mõlemalt poolt 25 minutit."
+  },
+  "17": {
+    "ID": "17",
+    "Kategooria": "Supp",
+    "Nimi": "Kõrvitsasupp",
+    "Tutvustus": "Kerge ja tervislik kõrvitsasupp.",
+    "Aeg": "30",
+    "Koostisosad": "500 g kõrvitsat, 1 tk sibul, 2 spl õli, 1 tl köömned, 1 l köögiviljapuljong",
+    "Valmistamine": "Koori ja tükelda kõrvits. Prae sibul õlis. Lisa kõrvits ja köömned. Vala peale puljong. Keeda 20 minutit ja püreesta supp."
+  },
+  "18": {
+    "ID": "18",
+    "Kategooria": "Supp",
+    "Nimi": "Oasupp",
+    "Tutvustus": "Rikkalik oasupp hakklihaga.",
+    "Aeg": "40",
+    "Koostisosad": "400 g oad, 300 g hakkliha, 1 tk sibul, 2 tk porgand, 1 tl tüümian, 1 l puljong",
+    "Valmistamine": "Keeda oad ja hakkliha puljongis. Lisa hakitud sibul, porgand ja tüümian. Hauta veel 15 minutit."
+  }
+}

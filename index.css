@@ -43,13 +43,23 @@
   justify-content: space-around;
 }
 
+
 .category_button {
   width: 80%;
   height: 55px;
   border-radius: 10px;
   font-size: 2rem;
   background-color: white;
-  transition: all 100ms linear;
+  line-height: 55px;
+  display: block;
+  text-align:  center;
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  text-decoration: none;
+  color: black;
 }
 
 .category_button:hover{

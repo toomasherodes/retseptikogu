@@ -4,6 +4,7 @@
 
 body {
   margin-top: 70px;
+  height: 100%;
 }
 
 .header {
@@ -18,4 +19,12 @@ body {
 .logo {
   height: 50px;
   margin: 10px 20px;
+}
+
+.footer{
+  width: 100vw;
+  height: 50px;
+  background-color: #ffce81;
+  text-align: center;
+  line-height: 50px;
 }

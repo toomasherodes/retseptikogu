@@ -6,6 +6,8 @@ function addHeader() {
     y.setAttribute("class", "logo")
     x.appendChild(y)
     document.body.insertBefore(x, document.body.firstChild)
+
+    document.body.innerHTML += '<div class="footer"> 2023 </div>'
  }
 
 Window.onload = addHeader();
