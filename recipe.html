@@ -9,27 +9,36 @@
   </head>
 
   <body>
-    <div class="recipe-container">
-      <div class="left-column">
-        <h1>Klassikaline Boršš</h1>
-        <div class="ingredients">
-          <p><strong>Koostisosad:</strong></p>
-          <ul>
-            <li>Peet</li>
-            <li>Kartul</li>
-            <li>Porgand</li>
-            <li>Sibul</li>
-          </ul>
+    <div class="main_container" id="main_container">
+      <div class="recipe-container">
+        <div class="left-column">
+          <div>
+          <h1 id="name">Retsepti nimi</h1>
+          <p id="teaser">RETSEPTI TUTVUSTUS</p>
+         </div>
+          <div class="ingredients">
+            <h2 class="instructions-title">Koostisosad:</h2>
+            <ul id="ingredientList">
+
+            </ul>
+          </div>
+          <div class="instructions">
+            <h2 class="instructions-title">Valmistamine</h2>
+            <p id="guide" class="guide">Lühidalt valmistamisest...</p>
+          </div>
         </div>
-        <div class="instructions-title">Valmistamine</div>
-        <div class="instructions">
-          <p>Lühidalt valmistamisest...</p>
+        <div class="right-column">
+          <img
+            id="recipeImg"
+            class="recipe-image"
+            src="/pictures/cake_background.jpeg"
+            alt="Recipe Image"
+          />
         </div>
-      </div>
-      <div class="right-column">
-        <img class="recipe-image" src="pilt.jpg" alt="Recipe Image" />
       </div>
     </div>
     <script src="header.js"></script>
+    <script src="recipe.js"></script>
+
   </body>
 </html>
