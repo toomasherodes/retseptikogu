@@ -42,7 +42,12 @@
 
 /* Koostisosade stiilid */
 .ingredients {
-    margin-bottom: 18px;
+    margin: 28px 0;
+}
+
+.nameAndTime{
+    display: flex;
+    justify-content: space-between;
 }
 
 li{

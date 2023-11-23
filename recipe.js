@@ -10,9 +10,10 @@ async function insertContent() {
 
     document.getElementById("name").innerHTML = result.Nimi;
     document.getElementById("teaser").innerHTML = result.Tutvustus.toUpperCase();
+    document.getElementById("time").innerHTML = result.Aeg + " min";
+
 
     const koostisosad = result.Koostisosad.split(",").map((ingredient) => "<li>"+ingredient+"</li>")
-    console.log(koostisosad)
     koostisosad.forEach(element => {
         document.getElementById("ingredientList").innerHTML += element;
     });
