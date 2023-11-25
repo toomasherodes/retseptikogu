@@ -16,13 +16,13 @@ async function insertContent() {
     result.forEach(element => {
         addHTML += `
         <div class="recipe_background ">
-            <div class="pealkiri">` + element.Nimi + `
+            <div class="title">` + element.Nimi + `
                 <br>
                 <span class="tekst">`+element.Tutvustus + ` </span>
             </div>
-            <button class="recipe_button">
-                <span class="text">Valmistama →</span>
-            </button>
+            <a class="recipe_button" href="/recipe.html?id=`+element.ID+`">
+                <p class="text">Valmistama →</p>
+            </a>
         </div>
         `
     });

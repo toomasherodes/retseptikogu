@@ -27,6 +27,9 @@
   border-width: 0;
   font-size: 1.4rem;
   background-color: #ffce81;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -34,7 +37,7 @@
   background-color: #fbd89f;
 }
 
-.pealkiri {
+.title {
   font-weight: bold;
   font-size: 2rem;
   align-items: center;
@@ -47,9 +50,12 @@
 }
 
 .text {
-  margin-right: 8px;
-  /* Adjust spacing between the text and icon */
-  /* Add additional styling for the text if needed */
+  text-decoration: none;
+  color: black;
+}
+
+.text:visited{
+  text-decoration: none;
 }
 
 .icon {
