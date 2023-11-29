@@ -18,6 +18,7 @@ async function insertContent() {
         document.getElementById("ingredientList").innerHTML += element;
     });
     document.getElementById("guide").innerHTML = result.Valmistamine;
+    document.getElementById("recipeImg").src= "./pictures/retseptipildid/"+ result.ID +".png"
 
 
 }
