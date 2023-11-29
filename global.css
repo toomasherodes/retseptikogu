@@ -1,20 +1,19 @@
-* {
-  margin: 0;
-  text-decoration: none;
-}
+/* global.css */
 
 body {
-  margin-top: 70px;
+  margin: 0;
+  text-decoration: none;
   height: 100%;
 }
 
 .header {
-  width: 100vw;
+  position: fixed;
+  width: 100%;
   height: 70px;
   background-color: #ffce81;
-  position: absolute;
   top: 0;
   left: 0;
+  z-index: 1000;
 }
 
 .logo {
@@ -22,10 +21,27 @@ body {
   margin: 10px 20px;
 }
 
-.footer{
+.footer {
+  position: fixed;
+  bottom: 0;
   width: 100vw;
   height: 50px;
   background-color: #ffce81;
   text-align: center;
   line-height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo {
+    margin: 10px 10px;
+  }
+
+  .header,
+  .footer {
+    height: 50px;
+  }
+
+  .footer {
+    line-height: 30px;
+  }
 }
