@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: grey;
 }
 
 .recipe_background {
@@ -12,7 +13,7 @@
   width: 85vw;
   border-radius: 15px;
   border: solid black 2px;
-  background-color: #e9e9e9;
+  background-color: #000026;
   display: flex;
   box-shadow: 3px 3px 3px black;
   padding-right: 40px;
@@ -26,15 +27,16 @@
   border-radius: 10px;
   border-width: 0;
   font-size: 1.4rem;
-  background-color: #ffce81;
+  background-color: grey;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  color: whitesmoke
 }
 
 .recipe_button:hover {
-  background-color: #fbd89f;
+  background-color: rgb(90, 88, 88);
 }
 
 .title {
@@ -51,7 +53,6 @@
 
 .text {
   text-decoration: none;
-  color: black;
 }
 
 .text:visited{

@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: grey;
 }
 
 .searchbar_background {
@@ -18,21 +19,28 @@
   max-width: 600px;
   height: 40px;
   margin: auto;
-  border: 1px solid gray;
   border-radius: 17px;
+  border-color: #000026;
   text-align: center;
   font-size: 1.5rem;
   box-shadow: 3px 3px 3px black;
   outline: none;
+  background-color: #000026;
 }
+::placeholder{
+color: grey
+}
+
 .category_container {
-  background-color: #b9b9b9;
+  background-color: #000026;
   padding: 3rem 1rem;
   width: 75vw;                             
   margin: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: whitesmoke
+  
 }
 .category_card {
   margin: 5px;
@@ -49,7 +57,7 @@
   height: 55px;
   border-radius: 10px;
   font-size: 2rem;
-  background-color: white;
+  background-color: rgb(131, 130, 130);
   line-height: 55px;
   display: block;
   text-align:  center;
@@ -60,11 +68,11 @@
 
 a:visited{
   text-decoration: none;
-  color: black;
+  color: whitesmoke
 }
 
 .category_button:hover{
-  background-color: rgb(236, 236, 236);
+  background-color: lightgrey;
 }
 
 .praed {
