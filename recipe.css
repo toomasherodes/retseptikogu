@@ -85,6 +85,7 @@ li{
     width: 80%;
     border-radius: 5px;
     box-shadow:black 5px 5px 5px;
+    object-fit: cover;
 }
 
 .guide{
