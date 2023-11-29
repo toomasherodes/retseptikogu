@@ -1,5 +1,6 @@
 /* index.css */
 
+/* Stiil peamise konteineri jaoks */
 .main_container {
   width: 100vw;
   display: flex;
@@ -7,6 +8,7 @@
   align-items: center;
 }
 
+/* Stiil otsingu taustale (searchbar_background) */
 .searchbar_background {
   margin: 3rem;
   height: 75vh;
@@ -16,6 +18,7 @@
   background-size: cover;
 }
 
+/* Stiil otsinguribale (searchbar) */
 .searchbar {
   width: 90%;
   max-width: 600px;
@@ -29,6 +32,7 @@
   outline: none;
 }
 
+/* Stiil kategooriate konteinerile (category_container) */
 .category_container {
   background-color: #b9b9b9;
   padding: 3rem 1rem;
@@ -39,6 +43,7 @@
   align-items: center;
 }
 
+/* Stiil kategooria kaardile (category_card) */
 .category_card {
   margin: 5px;
   height: 350px;
@@ -48,6 +53,7 @@
   justify-content: space-around;
 }
 
+/* Stiil kategooria nupule (category_button) */
 .category_button {
   width: 80%;
   height: 55px;
@@ -62,6 +68,7 @@
   border: solid black 2px;
 }
 
+/* Media query väiksemate ekraanide jaoks */
 @media only screen and (max-width: 600px) {
   .searchbar_background {
     height: 50vh;
