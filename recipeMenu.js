@@ -20,7 +20,7 @@ async function insertContent() {
                 <br>
                 <span class="tekst">`+element.Tutvustus + ` </span>
             </div>
-            <a class="recipe_button" href="/recipe.html?id=`+element.ID+`">
+            <a class="recipe_button" href="./recipe.html?id=`+element.ID+`">
                 <p class="text">Valmistama →</p>
             </a>
         </div>

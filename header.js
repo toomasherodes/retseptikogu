@@ -2,7 +2,7 @@ function addHeader() {
     var x = document.createElement("div");
     x.setAttribute("class", "header");
     var y = document.createElement("img")
-    y.setAttribute("src", "/pictures/logo.png")
+    y.setAttribute("src", "./pictures/logo.png")
     y.setAttribute("class", "logo")
     y.setAttribute("id", "logo")
     x.appendChild(y)
@@ -12,7 +12,7 @@ function addHeader() {
 
     const u = document.getElementById("logo")
     u.addEventListener("click", function(i) {
-        window.location.replace("index.html");
+        window.location.replace("./index.html");
       });    
 
 

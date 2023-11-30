@@ -14,7 +14,7 @@
   height: 75vh;
   width: 85vw;
   display: flex;
-  background-image: url(/pictures/searchBackground.jpeg);
+  background-image: url(./pictures/searchBackground.jpeg);
   background-size: cover;
 }
 
@@ -79,17 +79,17 @@ a:visited{
 }
 
 .praed {
-  background-image: url(/pictures/pasta_background.jpg);
+  background-image: url(./pictures/pasta_background.jpg);
   background-size: cover;
 }
 
 .supid {
-  background-image: url(/pictures/soup_background.jpg);
+  background-image: url(./pictures/soup_background.jpg);
   background-size: cover;
 }
 
 .magus {
-  background-image: url(/pictures/cake_background.jpeg);
+  background-image: url(./pictures/cake_background.jpeg);
   background-size: cover;
 }
 
