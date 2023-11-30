@@ -1,85 +1,91 @@
-/* Üldine lehe stiil */
+/* recipe.css */
+
+/* Üldine stiil lehele */
 .main_container {
-    min-height: max(700px, 100vh);
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    background-color: white;
+  min-height: max(700px, 100vh);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: white;
 }
 
-/* Retsepti konteineri stiilid */
+/* Stiil retsepti konteinerile (recipe-container) */
 .recipe-container {
-    height: 60vh;
-    min-height: 500px;
-    width: 80vw;
-    max-width: 1500px;
-    display: flex;
-    margin: 20px;
-    align-items: center;
+  min-height: 60vh;
+  min-height: 500px;
+  width: 80vw;
+  max-width: 1500px;
+  display: flex;
+  margin: 20px;
+  align-items: center;
 }
 
-/* Vasaku kasti stiilid */
+/* Stiil vasakule kastile (left-column) */
 .left-column {
-    flex: 1;
-    height: 100%;
-    padding: 40px;
-    background-color: lightgray; 
-    border-radius: 5px; 
-    margin: 3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  flex: 1;
+  min-height: 100%;
+  padding: 40px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* Retsepti pealkirja stiilid */
+/* Stiil retsepti pealkirjale (recipe-title) */
 .recipe-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-/* Koostisosade stiilid */
+/* Stiil koostisosadele (ingredients) */
 .ingredients {
-    margin: 28px 0;
+  margin: 28px 0;
 }
 
-.nameAndTime{
-    display: flex;
-    justify-content: space-between;
+/* Stiil koostisosade nimetustele (nameAndTime) */
+.nameAndTime {
+  display: flex;
+  justify-content: space-between;
 }
 
-li{
-    font-size: 1.5rem;
+/* Stiil listielementidele (li) */
+li {
+  font-size: 1.5rem;
 }
 
+/* Stiil koostisosade listielementidele (ingredients li) */
 .ingredients li {
-    margin-bottom: 5px;
+  margin-bottom: 5px;
 }
 
-/* Valmistamise pealkirja stiilid */
+/* Stiil valmistamise pealkirjale (instructions-title) */
 .instructions-title {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-/* Valmistamisjuhiste stiilid */
+/* Stiil valmistamisjuhistele (instructions) */
 .instructions {
-    line-height: 1.5;
-    margin-bottom: 3rem;
+  line-height: 1.5;
+  margin-bottom: 3rem;
 }
 
-.right-column{
-    flex:1;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+/* Stiil paremale kastile (right-column) */
+.right-column {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
-/* Retsepti pildi stiilid */
+/* Stiil retsepti pildile (recipe-image) */
 .recipe-image {
     height: 90%;
     width: 80%;
@@ -88,6 +94,23 @@ li{
     object-fit: cover;
 }
 
-.guide{
-    font-size: 1.5rem;
+/* Stiil juhendile (guide) */
+.guide {
+  font-size: 1.5rem;
+}
+
+/* Media query väiksemate ekraanide jaoks */
+@media only screen and (max-width: 600px) {
+  .left-column {
+    width: 80vw;
+    padding: 20px;
+    margin: 10px;
+  } 
+
+  .recipe-container{
+    flex-direction: column;
   }
+  .recipe-image{
+    width: 300px;
+  }
+}

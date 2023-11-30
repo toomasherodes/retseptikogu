@@ -1,3 +1,6 @@
+/* global.css */
+
+/* Üldine stiil kõigile elementidele */
 * {
   margin: 0;
   text-decoration: none;
@@ -8,24 +11,47 @@ body {
   height: 100%;
 }
 
+/* Stiil päisele (header) */
 .header {
+  position: absolute;
   width: 100vw;
   height: 70px;
   background-color: #ffce81;
-  position: absolute;
   top: 0;
   left: 0;
 }
 
+/* Stiil logole */
 .logo {
   height: 50px;
   margin: 10px 20px;
 }
 
-.footer{
+/* Stiil jalusele (footer) */
+.footer {
   width: 100vw;
   height: 50px;
   background-color: #ffce81;
   text-align: center;
   line-height: 50px;
+}
+
+/* Media query väiksemate ekraanide jaoks */
+@media only screen and (max-width: 600px) {
+  .logo {
+    height: 40px;
+    margin: 5px 10px;
+  }
+  body{
+    margin-top: 50px;
+  }
+
+  .header,
+  .footer {
+    height: 50px;
+  }
+
+  .footer {
+    line-height: 30px;
+  }
 }

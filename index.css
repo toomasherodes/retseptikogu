@@ -1,3 +1,6 @@
+/* index.css */
+
+/* Stiil peamise konteineri jaoks */
 .main_container {
   width: 100vw;
   display: flex;
@@ -5,6 +8,7 @@
   align-items: center;
 }
 
+/* Stiil otsingu taustale (searchbar_background) */
 .searchbar_background {
   margin: 3rem;
   height: 75vh;
@@ -13,6 +17,8 @@
   background-image: url(/pictures/searchBackground.jpeg);
   background-size: cover;
 }
+
+/* Stiil otsinguribale (searchbar) */
 .searchbar {
   width: 90%;
   max-width: 600px;
@@ -25,15 +31,19 @@
   box-shadow: 3px 3px 3px black;
   outline: none;
 }
+
+/* Stiil kategooriate konteinerile (category_container) */
 .category_container {
   background-color: #b9b9b9;
   padding: 3rem 1rem;
-  width: 75vw;                             
+  width: 75vw;
   margin: 2rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
+/* Stiil kategooria kaardile (category_card) */
 .category_card {
   margin: 5px;
   height: 350px;
@@ -43,7 +53,7 @@
   justify-content: space-around;
 }
 
-
+/* Stiil kategooria nupule (category_button) */
 .category_button {
   width: 80%;
   height: 55px;
@@ -52,11 +62,12 @@
   background-color: white;
   line-height: 55px;
   display: block;
-  text-align:  center;
+  text-align: center;
   text-decoration: none;
   color: black;
   border: solid black 2px;
 }
+
 
 a:visited{
   text-decoration: none;
@@ -80,4 +91,31 @@ a:visited{
 .magus {
   background-image: url(/pictures/cake_background.jpeg);
   background-size: cover;
+}
+
+/* Media query väiksemate ekraanide jaoks */
+@media only screen and (max-width: 600px) {
+  .searchbar_background {
+    width: 95vw;
+    height: 50vh;
+  }
+
+  .searchbar {
+    font-size: 1.2rem;
+  }
+
+  .category_container {
+    width: 90%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .category_card {
+    margin: 5px 0;
+    width: 100%;
+  }
+
+  .category_button {
+    width: 95%;
+  }
 }

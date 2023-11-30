@@ -1,3 +1,6 @@
+/* recipemenu.css */
+
+/* Üldine stiil peamisele konteinerile */
 .main_container {
   min-height: 90vh;
   width: 100vw;
@@ -6,9 +9,10 @@
   align-items: center;
 }
 
+/* Stiil retsepti taustale (recipe_background) */
 .recipe_background {
   margin: 1rem;
-  height: 7rem;
+  min-height: 7rem;
   width: 85vw;
   border-radius: 15px;
   border: solid black 2px;
@@ -20,8 +24,10 @@
   align-items: center;
 }
 
+/* Stiil retsepti nupule (recipe_button) */
 .recipe_button {
-  width: 20%;
+  padding: 0 10px;
+  min-width: 20%;
   height: 3rem;
   border-radius: 10px;
   border-width: 0;
@@ -33,37 +39,53 @@
   justify-content: space-around;
 }
 
+/* Hover-efekt retsepti nupul */
 .recipe_button:hover {
   background-color: #fbd89f;
 }
 
+/* Stiil retsepti pealkirjale (title) */
 .title {
   font-weight: bold;
   font-size: 2rem;
   align-items: center;
   padding-left: 2rem;
 }
+
+/* Stiil tekstiblokeerimisele (tekst) */
 .tekst {
   font-weight: normal;
   font-size: 1rem;
   align-items: center;
 }
 
+/* Üldine stiil teksti elementidele */
 .text {
   text-decoration: none;
   color: black;
 }
 
-.text:visited{
+/* Värvuse määramine külastatud linkidele */
+.text:visited {
   text-decoration: none;
 }
 
-.icon {
-  /* Add styling for the icon if needed */
-  max-width: 24px; /* Set a maximum width for the icon */
-  max-height: 24px; /* Set a maximum height for the icon */
+/* Stiil puuduvate tulemuste tekstile (notFoundText) */
+.notFoundText {
+  margin-top: 50px;
 }
 
-.notFoundText{
-  margin-top: 50px;
+
+@media only screen and (max-width: 600px) {
+  .recipe_background {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .recipe_button{
+    margin: 10px 0;
+  }
+  .title{
+    padding-left: 0;
+    text-align: center;
+  }
 }
