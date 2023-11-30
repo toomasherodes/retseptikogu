@@ -68,9 +68,35 @@
   border: solid black 2px;
 }
 
+
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.category_button:hover{
+  background-color: rgb(236, 236, 236);
+}
+
+.praed {
+  background-image: url(/pictures/pasta_background.jpg);
+  background-size: cover;
+}
+
+.supid {
+  background-image: url(/pictures/soup_background.jpg);
+  background-size: cover;
+}
+
+.magus {
+  background-image: url(/pictures/cake_background.jpeg);
+  background-size: cover;
+}
+
 /* Media query väiksemate ekraanide jaoks */
 @media only screen and (max-width: 600px) {
   .searchbar_background {
+    width: 95vw;
     height: 50vh;
   }
 
@@ -79,15 +105,17 @@
   }
 
   .category_container {
+    width: 90%;
     flex-direction: column;
     align-items: stretch;
   }
 
   .category_card {
+    margin: 5px 0;
     width: 100%;
   }
 
   .category_button {
-    width: 100%;
+    width: 95%;
   }
 }

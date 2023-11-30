@@ -12,7 +12,7 @@
 /* Stiil retsepti taustale (recipe_background) */
 .recipe_background {
   margin: 1rem;
-  height: 7rem;
+  min-height: 7rem;
   width: 85vw;
   border-radius: 15px;
   border: solid black 2px;
@@ -26,7 +26,8 @@
 
 /* Stiil retsepti nupule (recipe_button) */
 .recipe_button {
-  width: 20%;
+  padding: 0 10px;
+  min-width: 20%;
   height: 3rem;
   border-radius: 10px;
   border-width: 0;
@@ -69,13 +70,22 @@
   text-decoration: none;
 }
 
-/* Ikooni stiilimine */
-.icon {
-  max-width: 24px; /* Maksimaalne laius ikoonile */
-  max-height: 24px; /* Maksimaalne kõrgus ikoonile */
-}
-
 /* Stiil puuduvate tulemuste tekstile (notFoundText) */
 .notFoundText {
   margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .recipe_background {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .recipe_button{
+    margin: 10px 0;
+  }
+  .title{
+    padding-left: 0;
+    text-align: center;
+  }
 }

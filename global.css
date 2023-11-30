@@ -1,21 +1,24 @@
 /* global.css */
 
 /* Üldine stiil kõigile elementidele */
-body {
+* {
   margin: 0;
   text-decoration: none;
+}
+
+body {
+  margin-top: 70px;
   height: 100%;
 }
 
 /* Stiil päisele (header) */
 .header {
-  position: fixed;
-  width: 100%;
+  position: absolute;
+  width: 100vw;
   height: 70px;
   background-color: #ffce81;
   top: 0;
   left: 0;
-  z-index: 1000;
 }
 
 /* Stiil logole */
@@ -26,8 +29,6 @@ body {
 
 /* Stiil jalusele (footer) */
 .footer {
-  position: fixed;
-  bottom: 0;
   width: 100vw;
   height: 50px;
   background-color: #ffce81;
@@ -38,7 +39,11 @@ body {
 /* Media query väiksemate ekraanide jaoks */
 @media only screen and (max-width: 600px) {
   .logo {
-    margin: 10px 10px;
+    height: 40px;
+    margin: 5px 10px;
+  }
+  body{
+    margin-top: 50px;
   }
 
   .header,

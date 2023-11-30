@@ -13,7 +13,7 @@
 
 /* Stiil retsepti konteinerile (recipe-container) */
 .recipe-container {
-  height: 60vh;
+  min-height: 60vh;
   min-height: 500px;
   width: 80vw;
   max-width: 1500px;
@@ -25,7 +25,7 @@
 /* Stiil vasakule kastile (left-column) */
 .left-column {
   flex: 1;
-  height: 100%;
+  min-height: 100%;
   padding: 40px;
   background-color: lightgray;
   border-radius: 5px;
@@ -101,6 +101,15 @@ li {
 /* Media query väiksemate ekraanide jaoks */
 @media only screen and (max-width: 600px) {
   .left-column {
+    width: 80vw;
     padding: 20px;
-    margin: 1rem;
+    margin: 10px;
   } 
+
+  .recipe-container{
+    flex-direction: column;
+  }
+  .recipe-image{
+    width: 300px;
+  }
+}
