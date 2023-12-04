@@ -92,6 +92,7 @@ li {
     border-radius: 5px;
     box-shadow:black 5px 5px 5px;
     object-fit: cover;
+    border: 1px solid black;
 }
 
 /* Stiil juhendile (guide) */
@@ -111,6 +112,6 @@ li {
     flex-direction: column;
   }
   .recipe-image{
-    width: 300px;
+    width: 65vw;
   }
 }

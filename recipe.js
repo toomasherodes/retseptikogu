@@ -6,7 +6,6 @@ async function insertContent() {
     const data = await jsonData.json()
 
     result = data[search]
-    console.log(result)
 
     document.getElementById("name").innerHTML = result.Nimi;
     document.getElementById("teaser").innerHTML = result.Tutvustus.toUpperCase();
