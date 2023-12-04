@@ -1,3 +1,9 @@
+/*
+Javascript kood, mis leiab parameetri "search" põhjal otsingu ja sisestab
+failist data.json leitud vasted lehele recipeMenu.html
+*/
+
+
 async function insertContent() {
     const params = new URLSearchParams(window.location.search);
     const search = params.get('search');
@@ -30,4 +36,7 @@ async function insertContent() {
     else{document.getElementById("main_container").innerHTML += '<h1 class="notFoundText">Selle märksõnaga retsepte ei leitud</h1>'}
 }
 
+// Retsepti lisamine pärast lehe laadimist
 Window.onload = insertContent();
+
+// koodi autor: Toomas Herodes
