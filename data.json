@@ -41,7 +41,7 @@
     "Nimi": "Kana-nuudlisupp",
     "Tutvustus": "Tervislik ja soe supp külmal talvepäeval.",
     "Aeg": "35",
-    "Koostisosad": "Kanapuljong, 200 g kanafileed, nuudlid, köögiviljad",
+    "Koostisosad": "Kanapuljong, 200 g kanafileed, Nuudlid, Köögiviljad",
     "Valmistamine": "Keeda kanapuljong. Lisa kanafilee ja köögiviljad. Keeda nuudlid eraldi ja lisa supile. Keeda veel 10 minutit."
   },
   "6": {
@@ -50,7 +50,7 @@
     "Nimi": "Tomatisupp",
     "Tutvustus": "Värskendav supp suveks.",
     "Aeg": "25",
-    "Koostisosad": "Tomatid, 1 tk sibul, 1 tk porgand, 1 vars seller, puljong",
+    "Koostisosad": "Tomatid, 1 tk sibul, 1 tk porgand, 1 vars seller, Puljong",
     "Valmistamine": "Kuumuta sibul, porgand ja seller. Lisa tomatid ja puljong. Keeda 15 minutit. Püreesta supp blenderiga."
   },
   "7": {
@@ -59,7 +59,7 @@
     "Nimi": "Läätsesupp",
     "Tutvustus": "Toitev taimne supp kiireks lõunasöögiks.",
     "Aeg": "30",
-    "Koostisosad": "Läätsed, 1 tk sibul, 2 küünt küüslauku, kartul, köögiviljapuljong",
+    "Koostisosad": "Läätsed, 1 tk sibul, 2 küünt küüslauku, Kartul, Köögiviljapuljong",
     "Valmistamine": "Keeda läätsi köögiviljapuljongis. Prae sibul ja küüslauk. Lisa köögiviljad. Sega läätsed köögiviljadega."
   },
   "8": {
@@ -68,7 +68,7 @@
     "Nimi": "Brokolisupp",
     "Tutvustus": "Rikkalik ja tervislik supp brokoli austajatele.",
     "Aeg": "40",
-    "Koostisosad": "Brokoli, kartul, 1 tk sibul, köögiviljapuljong",
+    "Koostisosad": "Brokoli, Kartul, 1 tk sibul, Köögiviljapuljong",
     "Valmistamine": "Keeda brokoli ja kartul köögiviljapuljongis. Prae sibul. Püreesta supp ja lisa praetud sibul."
   },
   "9": {
@@ -86,7 +86,7 @@
     "Nimi": "Puuviljasalat",
     "Tutvustus": "Värske puuviljasalat suviseks maiustamiseks.",
     "Aeg": "15",
-    "Koostisosad": "Õun, banaan, kiivi, maasikad, apelsinimahl",
+    "Koostisosad": "Õun, Banaan, Kiivi, Maasikad, Apelsinimahl",
     "Valmistamine": "Lõika puuviljad viiludeks. Sega kokku ja nirista üle apelsinimahlaga. Serveeri jahutatult."
   },
   "11": {
@@ -104,7 +104,7 @@
     "Nimi": "Pannkoogid",
     "Tutvustus": "Traditsioonilised pannkoogid hommikusöögiks või magustoiduks.",
     "Aeg": "25",
-    "Koostisosad": "2 dl jahu, 2 dl piim, 1 muna, 2 spl suhkrut, näpuotsatäis soola",
+    "Koostisosad": "2 dl jahu, 2 dl piim, 1 muna, 2 spl suhkrut, Näpuotsatäis soola",
     "Valmistamine": "Sega kõik koostisosad ühtlaseks tainaks. Küpseta pannkoogid kuumal pannil mõlemalt poolt kuldpruuniks."
   },
   "13": {
@@ -131,7 +131,7 @@
     "Nimi": "Beeftacos",
     "Tutvustus": "Mahlased veisetacosed vürtsika kastmega.",
     "Aeg": "35",
-    "Koostisosad": "500 g veiseliha, 1 tk sibul, 2 tl paprikapulbrit, 1 tl jahvatatud köömned, maisitortillad",
+    "Koostisosad": "500 g veiseliha, 1 tk sibul, 2 tl paprikapulbrit, 1 tl jahvatatud köömned, Maisitortillad",
     "Valmistamine": "Prae veiseliha sibulaga. Lisa paprikapulber ja köömned. Serveeri täidise ja maisitortilladega."
   },
   "16": {
@@ -140,7 +140,7 @@
     "Nimi": "Kana-ananassivarras",
     "Tutvustus": "Magus-soolane kana-ananassivarras.",
     "Aeg": "50",
-    "Koostisosad": "400 g kanafileed, 1 purk ananassitükke, sojakaste, 1 tk paprika, 1 tk sibul",
+    "Koostisosad": "400 g kanafileed, 1 purk ananassitükke, Sojakaste, 1 tk paprika, 1 tk sibul",
     "Valmistamine": "Lõika kanafilee tükkideks. Sega kokku sojakaste, ananassitükid, paprika- ja sibulatükid. Keera kana ja köögiviljad vardasse. Grilli mõlemalt poolt 25 minutit."
   },
   "17": {
